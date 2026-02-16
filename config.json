@@ -1,16 +1,24 @@
-/////////////////////////////////////////////////Мій перший репозиторій///////////////////////////////////////////////////////////////////////////////
-
-
-
-
-echo "# -LR_1_afe3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/vadikmychka/LR_1_afe3.git
-git push -u origin main
-////////////////////
-git remote add origin https://github.com/vadikmychka/LR_1_afe3.git
-git branch -M main
-git push -u origin main
+{
+  "mainServerUrl": "http://104.233.211.166/playbf/",
+  "appUpdateUrl": "http://104.233.211.166/playbf/app/PlayBF2Launcher.exe",
+  "appVersionUrl": "http://104.233.211.166/playbf/app/version.txt",
+  "webPanelUrl": "http://3.233.167.112:5000",
+  "gameInstallManifestUrl": "http://3.233.167.112/manifest.json",
+  "gameInstallFilesBaseUrl": "http://3.233.167.112/bf2/",
+  "relaxModServerUrl": "sh4750747.c.had.su",
+  "serverListApiUrl": "https://api.bflist.io/bf2/v1/servers",
+  "statsApiBaseUrl": "https://api.statbits.io/chatmsg/bf2/stats/playbf2/",
+  "playersDataUrl": "https://raw.githubusercontent.com/art567/bf2opendata/refs/heads/main/v_playbf2.dat",
+  "statsWebUrl": "http://bf2.tgamer.ru/stats/",
+  "hdHudVideoUrl": "http://104.233.211.166/playbf/HDhud.mp4",
+  "telegramBotToken": "7740316384:AAGQgwEGf3gN7fX4BgY9GndPnRjiONsuwdM",
+  "telegramChatId": "-1002515684487",
+  "gameServers": [
+    { "name": "Allmaps", "ip": "37.230.210.130", "port": 16567 },
+    { "name": "Real War 2", "ip": "37.230.210.130", "port": 17568 },
+    { "name": "Real War 3", "ip": "37.230.210.130", "port": 20567 },
+    { "name": "RELAXDOM SKYNET", "ip": "91.226.93.158", "port": 16568 },
+    { "name": "RELAXDOM CustomMaps", "ip": "91.226.93.158", "port": 16567 },
+    { "name": "SF Partner Server", "ip": "173.234.79.175", "port": 16569 }
+  ]
+}
